@@ -1,5 +1,5 @@
 # [Mobile App](https://github.com/ialakey/srbguide)
-# [Backend desription](https://github.com/ialakey/serbiaguide/blob/main/README.md)
+# [Backend Desription](https://github.com/ialakey/serbiaguide/blob/main/README.md)
 
 ## Location Screen
 ![image](https://github.com/ialakey/serbiaguide-front-admin/assets/56916175/69df1d74-f669-4743-a259-f22d79cfb882)
