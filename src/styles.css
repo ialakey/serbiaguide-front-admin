@@ -1,0 +1,137 @@
+/* styles.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+  }
+  
+  h2, h3 {
+    color: #333;
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  tr.selected {
+    background-color: #a9c5d3;
+  }
+  
+  .actions {
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+  }
+  
+  .deleteButton {
+    background-color: #ff6666;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  form {
+    margin-top: 20px;
+  }
+
+/* modal.css */
+
+.actions {
+    margin-bottom: 20px;
+  }
+  
+  .actions button {
+    margin-right: 10px;
+  }
+  
+  .modal-content {
+    width: 400px;
+    max-width: 80%;
+    margin: auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+  }
+  
+  .form-label {
+    display: block;
+    margin-bottom: 8px;
+  }
+  
+  .form-input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+  }
+  
+  .modal-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .modal-buttons button {
+    padding: 10px 15px;
+    cursor: pointer;
+  }
+  
+  .modal-buttons button:last-child {
+    background-color: #ff6262;
+    color: #fff;
+  }
+  
+  .modal-overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+  }
